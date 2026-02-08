@@ -1,0 +1,9 @@
+{
+  "name": "data-toolkit-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Week 1 Data Toolkit CLI starter",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
