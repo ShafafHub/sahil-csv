@@ -1,4 +1,3 @@
-@ -1,61 +0,0 @@
 function stats(rows, column) {
   // TODO: implement count, min, max, avg for numeric column
   const isNum = !isNaN(Number(rows[0][column]));
