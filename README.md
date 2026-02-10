@@ -11,6 +11,7 @@ It includes scripts for parsing, filtering, sorting, and exporting CSV data.
 
 ## Installation
 
-```bash
-pnpm i
-```
+pnpm start stats --file data/people.csv --column age
+pnpm start filter --file data/people.csv --column Name --value "zia"
+pnpm start sort --file data/people.csv --column age --order asc
+pnpm start export --file data/people.csv --out data/people-export.csv
